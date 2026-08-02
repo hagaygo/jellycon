@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-26 00:17+0000\n"
-"Last-Translator: Battseren Badral <bbattseren88@gmail.com>\n"
+"PO-Revision-Date: 2026-08-02 13:41+0000\n"
+"Last-Translator: Guilherme Naves <navesbm@gmail.com>\n"
 "Language-Team: Mongolian <https://translate.jellyfin.org/projects/jellycon/"
 "jellycon/mn/>\n"
 "Language: mn_mn\n"
@@ -9,8 +9,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14\n"
+"X-Generator: Weblate 5.15.1\n"
 
 msgctxt "#30000"
 msgid "Host"
 msgstr "Хост"
+
+msgctxt "#30001"
+msgid "Port"
+msgstr "порт"
+
+msgctxt "#30003"
+msgid "Verify HTTPS certificate"
+msgstr "HTTPS сертификатыг шалгаарай"
+
+msgctxt "#30005"
+msgid "Username"
+msgstr "Хэрэглэгчийн нэр"
+
+msgctxt "#30006"
+msgid "Password"
+msgstr "Нууц үг"
+
+msgctxt "#30007"
+msgid "Samba username"
+msgstr "Самба хэрэглэгчийн нэр"
+
+msgctxt "#30008"
+msgid "Samba password"
+msgstr "Самба нууц үг"
