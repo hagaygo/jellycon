@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-02 11:32+0000\n"
-"Last-Translator: Tushar Mhatre <mhatretush@gmail.com>\n"
+"PO-Revision-Date: 2026-08-24 03:24+0000\n"
+"Last-Translator: Karan Singh BHardwaj <bhardwaj00009@gmail.com>\n"
 "Language-Team: Hindi <https://translate.jellyfin.org/projects/jellycon/"
 "jellycon/hi/>\n"
 "Language: hi_in\n"
@@ -413,7 +413,7 @@ msgstr "मीडिया स्ट्रीम जानकारी शाम
 
 msgctxt "#30200"
 msgid "URL error"
-msgstr "यूआरएल त्रुटि"
+msgstr "URL त्रुटि"
 
 msgctxt "#30201"
 msgid "Unable to connect to server"
@@ -724,3 +724,520 @@ msgid "JellyCon needs to prompt for resume on partily played items, Kodi can als
 msgstr ""
 "आंशिक रूप से देखे गए आइटम्स के लिए JellyCon और Kodi दोनों प्रॉम्प्ट दिखा सकते हैं, जिससे "
 "डबल प्रॉम्प्ट हो सकता है। क्या आप इसे हटाना चाहते हैं?"
+
+msgctxt "#30276"
+msgid "Extra Resume Prompt Detected"
+msgstr "अतिरिक्त रिज़्यूमे प्रॉम्प्ट पाया गया"
+
+msgctxt "#30307"
+msgid "Play Trailer"
+msgstr "ट्रेलर चलाएं"
+
+msgctxt "#30308"
+msgid "Select Trailer"
+msgstr "ट्रेलर चुनें"
+
+msgctxt "#30309"
+msgid "Select Media Source"
+msgstr "मीडिया स्रोत चुनें"
+
+msgctxt "#30310"
+msgid "Enable Jellyfin remote control"
+msgstr "जेलीफ़िन रिमोट कंट्रोल सक्षम करें"
+
+msgctxt "#30311"
+msgid "Library - "
+msgstr "संग्रह -"
+
+msgctxt "#30312"
+msgid "All - "
+msgstr "सभी -"
+
+msgctxt "#30313"
+msgid "Menu"
+msgstr "मेन्यू"
+
+msgctxt "#30314"
+msgid "Play"
+msgstr "चलाएं"
+
+msgctxt "#30315"
+msgid "Suppress notifications for connection errors"
+msgstr "कनेक्शन त्रुटियों के लिए बंद करें"
+
+msgctxt "#30316"
+msgid "Connection Error"
+msgstr "कनेक्शन त्रुटि"
+
+msgctxt "#30317"
+msgid "Play All"
+msgstr "सभी चलाएं"
+
+msgctxt "#30318"
+msgid "Music - Albums"
+msgstr "संगीत - एल्बम"
+
+msgctxt "#30320"
+msgid " - Albums"
+msgstr "- एल्बम"
+
+msgctxt "#30322"
+msgid "Auto resume"
+msgstr "स्वचालित रूप से जारी रखें"
+
+msgctxt "#30323"
+msgid "Artists"
+msgstr "कलाकार"
+
+msgctxt "#30325"
+msgid " - Genres"
+msgstr "- शैलियाँ"
+
+msgctxt "#30327"
+msgid "Go To Season"
+msgstr "सीज़न पर जाएं"
+
+msgctxt "#30328"
+msgid "Show empty folders (shows, seasons, collections)"
+msgstr "खाली फ़ोल्डर दिखाएँ (शो, सीज़न, संग्रह)"
+
+msgctxt "#30329"
+msgid "Screensaver"
+msgstr "स्क्रीनसेवर"
+
+msgctxt "#30330"
+msgid "Show change user dialog"
+msgstr "उपयोगकर्ता बदलें संवाद दिखाएं"
+
+msgctxt "#30331"
+msgid "Movies per page"
+msgstr "प्रति पृष्ठ फ़िल्में"
+
+msgctxt "#30332"
+msgid "Stop media playback on screensaver activation"
+msgstr "स्क्रीनसेवर सक्रिय होने पर मीडिया प्लेबैक रोकें"
+
+msgctxt "#30333"
+msgid "Cache artwork in the background"
+msgstr "बैकग्राउंड में आर्टवर्क कैश करें"
+
+msgctxt "#30334"
+msgid "Use JellyCon context menu"
+msgstr "जेलीकॉन संदर्भ मेनू का उपयोग करें"
+
+msgctxt "#30337"
+msgid "Song"
+msgstr "गाना"
+
+msgctxt "#30338"
+msgid "Album"
+msgstr "एल्बम"
+
+msgctxt "#30339"
+msgid "Person"
+msgstr "व्यक्ति"
+
+msgctxt "#30340"
+msgid "Group movies into collections"
+msgstr "फ़िल्मों को संग्रह में समूहीकृत करें"
+
+msgctxt "#30341"
+msgid "Background image update interval (0 = disabled)"
+msgstr "बैकग्राउंड इमेज अपडेट अंतराल (0 = अक्षम)"
+
+msgctxt "#30342"
+msgid "New content check interval (0 = disabled)"
+msgstr "नई सामग्री जांच अंतराल (0 = अक्षम)"
+
+msgctxt "#30343"
+msgid "Changes Require Kodi Restart"
+msgstr "बदलावों के लिए कोडी रीस्टार्ट आवश्यक है"
+
+msgctxt "#30344"
+msgid "Number of images removed from cache"
+msgstr "कैश से हटाई गई छवियों की संख्या"
+
+msgctxt "#30345"
+msgid "Cache Jellyfin server data requests"
+msgstr "जेलीफ़िन सर्वर डेटा अनुरोधों को कैश करें"
+
+msgctxt "#30346"
+msgid "Deleteing Cached Images"
+msgstr "कैश की गई तस्वीरें हटाई जा रही हैं"
+
+msgctxt "#30347"
+msgid "Getting Existing Images"
+msgstr "मौजूदा तस्वीरें प्राप्त की जा रही हैं"
+
+msgctxt "#30348"
+msgid "Add user ratings"
+msgstr "उपयोगकर्ता रेटिंग जोड़ें"
+
+msgctxt "#30349"
+msgid " - Recently Played"
+msgstr "- हाल ही में चलाया गया"
+
+msgctxt "#30350"
+msgid "Music - Recently Added"
+msgstr "संगीत - हाल ही में जोड़े गए"
+
+msgctxt "#30351"
+msgid "Music - Recently Played"
+msgstr "संगीत - हाल ही में बजाए गए"
+
+msgctxt "#30352"
+msgid "Music - Frequently Played"
+msgstr "संगीत - बार-बार बजाए गए"
+
+msgctxt "#30319"
+msgid "Music - All Album Artists"
+msgstr "संगीत - सभी एल्बम कलाकार"
+
+msgctxt "#30321"
+msgid " - Album Artists"
+msgstr "- एल्बम कलाकार"
+
+msgctxt "#30353"
+msgid " - Frequently Played"
+msgstr "- बार-बार बजाए गए"
+
+msgctxt "#30354"
+msgid "Go To Series"
+msgstr "सीरीज़ पर जाएं"
+
+msgctxt "#30355"
+msgid "Kodi Settings->Services->Allow remote control via HTTP"
+msgstr "कोडी सेटिंग्स->सर्वेस->HTTP के माध्यम से रिमोट कंट्रोल की अनुमति दें"
+
+msgctxt "#30356"
+msgid "Loading existing image list"
+msgstr "मौजूदा तस्वीर लिस्ट लोड हो रही है"
+
+msgctxt "#30357"
+msgid "Processing existing image list"
+msgstr "मौजूदा तस्वीर लिस्ट को प्रोसेस किया जा रहा है"
+
+msgctxt "#30358"
+msgid "Retreiving remote image list"
+msgstr "रिमोट तस्वीर लिस्ट प्राप्त की जा रही है"
+
+msgctxt "#30359"
+msgid "Building full image list"
+msgstr "पूर्ण तस्वीर लिस्ट तैयार की जा रही है"
+
+msgctxt "#30360"
+msgid " - Channels"
+msgstr "- चैनल"
+
+msgctxt "#30361"
+msgid " - Programs"
+msgstr "- प्रोग्राम"
+
+msgctxt "#30362"
+msgid " - Recordings"
+msgstr "- रिकॉर्डिंग"
+
+msgctxt "#30363"
+msgid "Save Password?"
+msgstr "पासवर्ड सहेजें?"
+
+msgctxt "#30364"
+msgid "Do you want to save the password?"
+msgstr "क्या आप पासवर्ड सहेजना चाहते हैं?"
+
+msgctxt "#30365"
+msgid "Manual Login"
+msgstr "मैनुअल लॉगिन"
+
+msgctxt "#30366"
+msgid "Manually enter user details"
+msgstr "उपयोगकर्ता विवरण मैन्युअल रूप से दर्ज करें"
+
+msgctxt "#30367"
+msgid "Allow fast user switching password saving"
+msgstr "बदले गए उपयोगकर्ता के पासवर्ड को तेज़ी से सहेजने की अनुमति दें"
+
+msgctxt "#30368"
+msgid "Clear Password?"
+msgstr "पासवर्ड हटाएं ?"
+
+msgctxt "#30369"
+msgid "Do you want to clear your saved password?"
+msgstr "क्या आप अपना सहेजा गया पासवर्ड हटाना करना चाहते हैं?"
+
+msgctxt "#30370"
+msgid "Do you want to manually enter a server url?"
+msgstr "क्या आप सर्वर URL मैन्युअल रूप से दर्ज करना चाहते हैं?"
+
+msgctxt "#30371"
+msgid "Could not connect to the URL you entered, do you want to try again?"
+msgstr ""
+"आपके द्वारा दर्ज किए गए URL कनेक्ट नहीं हो सका, क्या आप पुनः प्रयास करना चाहते हैं?"
+
+msgctxt "#30372"
+msgid "Server URL"
+msgstr "सर्वर URL"
+
+msgctxt "#30373"
+msgid "Scanning for local servers"
+msgstr "स्थानीय सर्वर खोजे जा रहे हैं"
+
+msgctxt "#30374"
+msgid "Sending request"
+msgstr "अनुरोध भेजा जा रहा है"
+
+msgctxt "#30375"
+msgid "Receiving data packet"
+msgstr "डेटा पैकेट प्राप्त हो रहा है"
+
+msgctxt "#30376"
+msgid "Checking server url"
+msgstr "सर्वर URL की जाँच की जा रही है"
+
+msgctxt "#30377"
+msgid "Sending request"
+msgstr "अनुरोध भेजा जा रहा है"
+
+msgctxt "#30378"
+msgid "Persist user details"
+msgstr "उपयोगकर्ता विवरण सुरक्षित रखें"
+
+msgctxt "#30379"
+msgid "External subtitle prompt"
+msgstr "बाहरी उपशीर्षक (सबटाइटल) संकेत"
+
+msgctxt "#30380"
+msgid "Never"
+msgstr "कभी नहीं"
+
+msgctxt "#30381"
+msgid "More than one"
+msgstr "एक से अधिक"
+
+msgctxt "#30382"
+msgid "Always"
+msgstr "हमेशा"
+
+msgctxt "#30383"
+msgid "System - "
+msgstr "सिस्टम -"
+
+msgctxt "#30384"
+msgid "Random movies interval minutes (0 = disabled)"
+msgstr "यादृच्छिक फ़िल्में अंतराल मिनट (0 = अक्षम)"
+
+msgctxt "#30385"
+msgid "Existing images before delete : "
+msgstr "हटाने से पहले मौजूद तस्वीरें:"
+
+msgctxt "#30386"
+msgid "Unused Jellyfin images : "
+msgstr "अप्रयुक्त जेलीफिन तस्वीरें:"
+
+msgctxt "#30387"
+msgid "Unused images removed : "
+msgstr "अप्रयुक्त तस्वीरें हटाई गईं:"
+
+msgctxt "#30388"
+msgid "Server details"
+msgstr "सर्वर विवरण"
+
+msgctxt "#30389"
+msgid "User details"
+msgstr "उपयोगकर्ता विवरण"
+
+msgctxt "#30390"
+msgid "Protocol"
+msgstr "प्रोटोकॉल"
+
+msgctxt "#30391"
+msgid "HTTP"
+msgstr "HTTP"
+
+msgctxt "#30392"
+msgid "HTTPS"
+msgstr "HTTPS"
+
+msgctxt "#30393"
+msgid "Clear Cache Result"
+msgstr "कैशे साफ़ करने का परिणाम"
+
+msgctxt "#30394"
+msgid "Cache files deleted"
+msgstr "कैशे फ़ाइलें हटा दी गईं"
+
+msgctxt "#30395"
+msgid "Clear cached server data"
+msgstr "कैशे किया गया सर्वर डेटा साफ़ करें"
+
+msgctxt "#30397"
+msgid " - Pages"
+msgstr "- पृष्ठ"
+
+msgctxt "#30398"
+msgid "Refresh Jellyfin Metadata"
+msgstr "जेलीफिन मेटाडेटा ताज़ा करें"
+
+msgctxt "#30400"
+msgid "Cache images interval minutes (0 = disabled)"
+msgstr "कैशे तस्वीरें अंतराल मिनट (0 = अक्षम)"
+
+msgctxt "#30401"
+msgid "Info"
+msgstr "जानकारी"
+
+msgctxt "#30402"
+msgid "Add to Kodi Playlist"
+msgstr "कोडी प्लेलिस्ट में जोड़ें"
+
+msgctxt "#30403"
+msgid "Movies - Recommendations"
+msgstr "फ़िल्में - सिफारिशें"
+
+msgctxt "#30404"
+msgid " - A-Z"
+msgstr "- ए-ज़ेड"
+
+msgctxt "#30405"
+msgid " - Show All"
+msgstr "- सभी दिखाएं"
+
+msgctxt "#30406"
+msgid "Jellyfin Libraries"
+msgstr "जेलीफिन लाइब्रेरी"
+
+msgctxt "#30439"
+msgid "Show play next episode at time left in seconds"
+msgstr "शेष सेकंड में अगला एपिसोड चलाना दिखाएं"
+
+msgctxt "#30443"
+msgid "Quick Connect"
+msgstr "क्विक कनेक्ट"
+
+msgctxt "#30444"
+msgid "Login using Quick Connect"
+msgstr "क्विक कनेक्ट का उपयोग करके लॉगिन करें"
+
+msgctxt "#30445"
+msgid "Continue Watching"
+msgstr "देखना जारी रखें"
+
+msgctxt "#30446"
+msgid "There was an error logging in"
+msgstr "लॉगिन करने में एक त्रुटि हुई"
+
+msgctxt "#30447"
+msgid "Max Play Queue Size"
+msgstr "अधिकतम प्ले कतार आकार"
+
+msgctxt "#30448"
+msgid "Shuffle"
+msgstr "यादृच्छिक क्रम"
+
+msgctxt "#30449"
+msgid "Instant Mix"
+msgstr "इंस्टेंट मिक्स"
+
+msgctxt "#30450"
+msgid "Next Up Rewatching"
+msgstr "अगली बार फिर से देखना"
+
+msgctxt "#30451"
+msgid "Rewatch Days (0 = Disabled)"
+msgstr "रीवॉच के दिन (0 = अक्षम )"
+
+msgctxt "#30452"
+msgid "Combine instead of replace (might cause slow-down)"
+msgstr "बदलने के बजाय जोड़े (इससे धीमी गति हो सकती है)"
+
+msgctxt "#30453"
+msgid "Hide number of items to show on entry title"
+msgstr "एंट्री टाइटल पर दिखाई जाने वाली चीज़ों की संख्या छिपाएँ"
+
+msgctxt "#30454"
+msgid " - Totally Unwatched"
+msgstr " - पूरी तरह से अनदेखा"
+
+msgctxt "#30455"
+msgid "TV Shows - Random"
+msgstr "टीवी शो - यादृच्छिक"
+
+msgctxt "#30456"
+msgid "All - Random"
+msgstr "सभी - यादृच्छिक"
+
+msgctxt "#30457"
+msgid "All - Recently Added"
+msgstr "सभी - हाल ही में जोड़े गए"
+
+msgctxt "#30458"
+msgid "All - Favorites"
+msgstr "सभी - पसंदीदा"
+
+msgctxt "#30666"
+msgid "Segment Skipper"
+msgstr "खंड छोड़ने वाला"
+
+msgctxt "#30667"
+msgid "Action to take"
+msgstr "की जाने वाली कार्रवाई"
+
+msgctxt "#30668"
+msgid "Start Offset (seconds)"
+msgstr "शुरुआत का समय (सेकंड में)"
+
+msgctxt "#30669"
+msgid "End Offset (seconds)"
+msgstr "अंत का समय (सेकंड में)"
+
+msgctxt "#30670"
+msgid "Intro Skipper"
+msgstr "इंट्रो छोड़ें"
+
+msgctxt "#30671"
+msgid "Credit Skipper"
+msgstr "क्रेडिट छोड़ें"
+
+msgctxt "#30672"
+msgid "Skip"
+msgstr "छोड़ें"
+
+msgctxt "#30673"
+msgid "Ask"
+msgstr "पूछें"
+
+msgctxt "#30674"
+msgid "Do Nothing"
+msgstr "कुछ न करें"
+
+msgctxt "#30675"
+msgid "Commercial Skipper"
+msgstr "विज्ञापन छोड़े"
+
+msgctxt "#30676"
+msgid "Preview Skipper"
+msgstr "प्रीव्यू छोड़े"
+
+msgctxt "#30677"
+msgid "Recap Skipper"
+msgstr "रीकैप छोड़े"
+
+msgctxt "#30678"
+msgid "TV Shows per page"
+msgstr "प्रति पृष्ठ टीवी शो"
+
+msgctxt "#30679"
+msgid "Quick Connect: Enter code {} on another device to authorize"
+msgstr "क्विक कनेक्ट: अधिकृत करने के लिए दूसरे डिवाइस पर कोड {} दर्ज करें"
+
+msgctxt "#30680"
+msgid "Waiting for authorization... ({}/{})"
+msgstr "प्राधिकरण की प्रतीक्षा की जा रही है... ({}/{})"
+
+msgctxt "#30681"
+msgid "Quick Connect authentication failed. Please try again."
+msgstr "क्विक कनेक्ट प्रमाणीकरण विफल हो गया। कृपया पुनः प्रयास करें।"
+
+msgctxt "#30682"
+msgid "Quick Connect timed out. Please try again."
+msgstr "क्विक कनेक्ट का समय समाप्त हो गया। कृपया पुनः प्रयास करें।"
