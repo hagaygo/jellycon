@@ -372,7 +372,6 @@ def get_default_filters():
 
     addon_settings = xbmcaddon.Addon()
     include_media = addon_settings.getSetting("include_media") == "true"
-    include_people = addon_settings.getSetting("include_people") == "true"
     include_overview = addon_settings.getSetting("include_overview") == "true"
 
     filer_list = [
@@ -401,8 +400,10 @@ def get_default_filters():
     if include_media:
         filer_list.append("MediaStreams")
 
-    if include_people:
-        filer_list.append("People")
+    # NOTE: "People" is intentionally NOT requested here. Asking the server for
+    # the people of every item in a listing is extremely slow on large
+    # libraries (issue #455). The cast is fetched on demand, for a single item,
+    # when the user opens the "Information" dialog (see functions.show_info_dialog).
 
     if include_overview:
         filer_list.append("Overview")
