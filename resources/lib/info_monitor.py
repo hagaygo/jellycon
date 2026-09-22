@@ -6,8 +6,8 @@ dialog on a JellyCon item.
 
 List requests no longer ask the server for "People" (extremely slow on large
 libraries). Kodi's native info dialog therefore opens without a cast. This
-monitor notices that dialog opening, closes it and asks the plugin
-(mode=SHOW_INFO) to re-open it with the cast of that single item.
+monitor notices that dialog opening and asks the plugin (mode=SHOW_INFO) to
+replace it with one that includes the cast of that single item.
 """
 from __future__ import (
     division, absolute_import, print_function, unicode_literals
@@ -52,7 +52,7 @@ class InfoDialogMonitor(threading.Thread):
                 except Exception as err:
                     log.error("Info dialog monitor error: {0}".format(err))
             was_active = active
-            if self._monitor.waitForAbort(0.15):
+            if self._monitor.waitForAbort(0.1):
                 break
 
     def _on_info_opened(self):
@@ -87,7 +87,8 @@ class InfoDialogMonitor(threading.Thread):
                 pass
 
         log.debug("Info dialog opened for {0} ({1}), loading cast".format(item_id, item_type))
-        xbmc.executebuiltin("Dialog.Close({},true)".format(INFO_WINDOW), True)
+        # The native dialog stays open while the plugin fetches the cast and
+        # replaces it, so there is no gap showing the list in between.
         xbmc.executebuiltin(
             "RunPlugin(plugin://plugin.video.jellycon/?mode=SHOW_INFO&item_id={})".format(item_id)
         )

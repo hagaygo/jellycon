@@ -663,8 +663,6 @@ def show_menu(params):
         CacheArtwork().delete_cached_images(item_id)
 
     elif selected_action == "info":
-        # wait=True so the pending close can't race with the dialog we open
-        xbmc.executebuiltin("Dialog.Close(all,true)", True)
         # "result" already holds the full item (including People) that was
         # fetched above for this menu, so no extra request is needed
         show_info_dialog(params, result)
@@ -725,9 +723,18 @@ def show_info_dialog(params, item=None):
         # tells the info dialog monitor (info_monitor.py) that the cast is
         # already loaded, so it doesn't intercept this dialog again
         list_item.setProperty("jellycon_info_loaded", "true")
+
+        # Everything is ready, so swap dialogs back to back to avoid flicker.
+        # A modal dialog is only active here if something is still on screen
+        # (the native info dialog we are replacing, or Kodi's context menu).
+        if xbmc.getCondVisibility("System.HasActiveModalDialog"):
+            xbmc.executebuiltin("Dialog.Close(all,true)", True)
         xbmcgui.Dialog().info(list_item)
     except Exception as err:
         log.error("Unable to show info dialog with cast for {0}: {1}".format(item_id, err))
+        if xbmc.getCondVisibility("Window.IsActive(movieinformation)"):
+            # Kodi's native info dialog is already showing, leave it alone
+            return
         # fall back to Kodi's own info dialog (without the cast). Tell the
         # info dialog monitor not to intercept it, otherwise it would loop
         HomeWindow().set_property("jellycon_info_fallback", str(time.time()))
